@@ -278,7 +278,7 @@ a:focus {
     padding: 188px 0;
 }
 .content-hero-background {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office-background.png);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office-background.png);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -295,14 +295,7 @@ background-size: cover;
 }
 
 .icon-team {
-    fill: #F4F4FD;
-        padding: 12px;
-        border-radius: 50px;
-            border: 1px solid #4D5AE5;
-            background: #4D5AE5;
-            width: 40px;
-            height: 40px;
-}
+    fill: #F4F4FD;}
 
 
 .footer-paragraf {
@@ -314,3 +307,53 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.32px;
 margin-bottom: 16px;}
+
+.icon-list-item {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.icon-list {
+        width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            border: 1px solid #4D5AE5;
+            background: #4D5AE5;
+            padding: 12px;
+
+}
+.icon-link-list {
+    display: flex;
+        justify-content: center;
+}
+
+.icon-footer {
+    fill:#F4F4FD;
+}
+
+.icon-list-footer {
+    width: 40px;
+        height: 40px;
+        flex-shrink: 0;border-radius: 50px;
+            border: 1px solid #4D5AE5;
+            background: #4D5AE5;
+            padding: 8px;
+
+}
+
+.icon-list-item-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+            padding: 8px;
+}
+.footer-container {
+    display: flex;
+        gap: 120px;
+        flex-wrap: wrap;
+        row-gap: 48px;
+}
